@@ -1,0 +1,244 @@
+2025-11-13T12:31:07.000000000Z [inf]  Starting Container
+2025-11-13T12:31:08.996963430Z [err]      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+2025-11-13T12:31:08.996976030Z [err]      at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+2025-11-13T12:31:08.996987766Z [err]      at async loadESM (node:internal/process/esm_loader:34:7)
+2025-11-13T12:31:08.996994553Z [err]      at async handleMainPromise (node:internal/modules/run_main:106:12) {
+2025-11-13T12:31:08.997001296Z [err]    code: 'ERR_INVALID_ARG_TYPE'
+2025-11-13T12:31:08.997008625Z [err]  }
+2025-11-13T12:31:08.997015993Z [err]  
+2025-11-13T12:31:08.997022294Z [err]  Node.js v18.20.5
+2025-11-13T12:31:08.997137633Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-11-13T12:31:08.997144368Z [inf]  
+2025-11-13T12:31:08.997151223Z [inf]  > rest-express@1.0.0 start
+2025-11-13T12:31:08.997157839Z [inf]  > NODE_ENV=production node dist/index.js
+2025-11-13T12:31:08.997163702Z [inf]  
+2025-11-13T12:31:08.997171084Z [err]  node:internal/errors:496
+2025-11-13T12:31:08.997178864Z [err]      ErrorCaptureStackTrace(err);
+2025-11-13T12:31:08.997185855Z [err]      ^
+2025-11-13T12:31:08.997192354Z [err]  
+2025-11-13T12:31:08.997198833Z [err]  TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+2025-11-13T12:31:08.997205569Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-11-13T12:31:08.997212082Z [err]      at validateString (node:internal/validators:162:11)
+2025-11-13T12:31:08.997218941Z [err]      at Object.resolve (node:path:1097:7)
+2025-11-13T12:31:08.997225690Z [err]      at file:///app/dist/index.js:329:17
+2025-11-13T12:31:09.475168030Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-11-13T12:31:09.977701315Z [inf]  
+2025-11-13T12:31:09.977713582Z [inf]  > rest-express@1.0.0 start
+2025-11-13T12:31:09.977721267Z [inf]  > NODE_ENV=production node dist/index.js
+2025-11-13T12:31:09.977728471Z [inf]  
+2025-11-13T12:31:09.977734851Z [err]  node:internal/errors:496
+2025-11-13T12:31:09.977745543Z [err]      ErrorCaptureStackTrace(err);
+2025-11-13T12:31:09.977754083Z [err]      ^
+2025-11-13T12:31:09.977763190Z [err]  
+2025-11-13T12:31:09.977772053Z [err]  TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+2025-11-13T12:31:09.977781253Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-11-13T12:31:09.977796433Z [err]      at validateString (node:internal/validators:162:11)
+2025-11-13T12:31:09.977806565Z [err]      at Object.resolve (node:path:1097:7)
+2025-11-13T12:31:09.977818657Z [err]      at file:///app/dist/index.js:329:17
+2025-11-13T12:31:09.977828070Z [err]      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+2025-11-13T12:31:09.977836249Z [err]      at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+2025-11-13T12:31:09.977847951Z [err]      at async loadESM (node:internal/process/esm_loader:34:7)
+2025-11-13T12:31:09.977857562Z [err]      at async handleMainPromise (node:internal/modules/run_main:106:12) {
+2025-11-13T12:31:09.978004117Z [err]  
+2025-11-13T12:31:09.978013426Z [err]  Node.js v18.20.5
+2025-11-13T12:31:09.978065824Z [err]    code: 'ERR_INVALID_ARG_TYPE'
+2025-11-13T12:31:09.978073723Z [err]  }
+2025-11-13T12:31:11.204561438Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-11-13T12:31:11.247471404Z [inf]  
+2025-11-13T12:31:11.247490135Z [inf]  > rest-express@1.0.0 start
+2025-11-13T12:31:11.247498937Z [inf]  > NODE_ENV=production node dist/index.js
+2025-11-13T12:31:11.247504581Z [inf]  
+2025-11-13T12:31:11.952010422Z [err]  node:internal/errors:496
+2025-11-13T12:31:11.952019444Z [err]      ErrorCaptureStackTrace(err);
+2025-11-13T12:31:11.952028763Z [err]      ^
+2025-11-13T12:31:11.952037352Z [err]  
+2025-11-13T12:31:11.952044834Z [err]  TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+2025-11-13T12:31:11.952052451Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-11-13T12:31:11.952062132Z [err]      at validateString (node:internal/validators:162:11)
+2025-11-13T12:31:11.952070254Z [err]      at Object.resolve (node:path:1097:7)
+2025-11-13T12:31:11.952085241Z [err]      at file:///app/dist/index.js:329:17
+2025-11-13T12:31:11.952097867Z [err]      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+2025-11-13T12:31:11.952104938Z [err]      at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+2025-11-13T12:31:11.952114591Z [err]      at async loadESM (node:internal/process/esm_loader:34:7)
+2025-11-13T12:31:11.952123180Z [err]      at async handleMainPromise (node:internal/modules/run_main:106:12) {
+2025-11-13T12:31:11.952130331Z [err]    code: 'ERR_INVALID_ARG_TYPE'
+2025-11-13T12:31:11.952136861Z [err]  }
+2025-11-13T12:31:11.952154596Z [err]  
+2025-11-13T12:31:11.952161407Z [err]  Node.js v18.20.5
+2025-11-13T12:31:13.066491160Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-11-13T12:31:13.066497490Z [inf]  
+2025-11-13T12:31:13.066504442Z [inf]  > rest-express@1.0.0 start
+2025-11-13T12:31:13.066511475Z [inf]  > NODE_ENV=production node dist/index.js
+2025-11-13T12:31:13.066518549Z [inf]  
+2025-11-13T12:31:13.417206354Z [err]  node:internal/errors:496
+2025-11-13T12:31:13.417214376Z [err]      ErrorCaptureStackTrace(err);
+2025-11-13T12:31:13.417219321Z [err]      ^
+2025-11-13T12:31:13.417224512Z [err]  
+2025-11-13T12:31:13.417228908Z [err]  TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+2025-11-13T12:31:13.417233737Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-11-13T12:31:13.417241258Z [err]      at validateString (node:internal/validators:162:11)
+2025-11-13T12:31:13.417245471Z [err]      at Object.resolve (node:path:1097:7)
+2025-11-13T12:31:13.417250916Z [err]      at file:///app/dist/index.js:329:17
+2025-11-13T12:31:13.417255810Z [err]      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+2025-11-13T12:31:13.417263432Z [err]      at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+2025-11-13T12:31:13.417270573Z [err]      at async loadESM (node:internal/process/esm_loader:34:7)
+2025-11-13T12:31:13.417274515Z [err]      at async handleMainPromise (node:internal/modules/run_main:106:12) {
+2025-11-13T12:31:13.417279453Z [err]    code: 'ERR_INVALID_ARG_TYPE'
+2025-11-13T12:31:13.417286332Z [err]  }
+2025-11-13T12:31:13.417293454Z [err]  
+2025-11-13T12:31:13.417301794Z [err]  Node.js v18.20.5
+2025-11-13T12:31:15.076627249Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-11-13T12:31:15.076634298Z [inf]  
+2025-11-13T12:31:15.076641342Z [inf]  > rest-express@1.0.0 start
+2025-11-13T12:31:15.076648786Z [inf]  > NODE_ENV=production node dist/index.js
+2025-11-13T12:31:15.076655586Z [inf]  
+2025-11-13T12:31:15.282351117Z [err]  node:internal/errors:496
+2025-11-13T12:31:15.282366209Z [err]      ErrorCaptureStackTrace(err);
+2025-11-13T12:31:15.282375049Z [err]      ^
+2025-11-13T12:31:15.282385328Z [err]  
+2025-11-13T12:31:15.282392937Z [err]  TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+2025-11-13T12:31:15.282401709Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-11-13T12:31:15.282410026Z [err]      at validateString (node:internal/validators:162:11)
+2025-11-13T12:31:15.282416941Z [err]      at Object.resolve (node:path:1097:7)
+2025-11-13T12:31:15.282424495Z [err]      at file:///app/dist/index.js:329:17
+2025-11-13T12:31:15.282431884Z [err]      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+2025-11-13T12:31:15.282438586Z [err]      at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+2025-11-13T12:31:15.282449565Z [err]      at async loadESM (node:internal/process/esm_loader:34:7)
+2025-11-13T12:31:15.282455378Z [err]      at async handleMainPromise (node:internal/modules/run_main:106:12) {
+2025-11-13T12:31:15.282461008Z [err]    code: 'ERR_INVALID_ARG_TYPE'
+2025-11-13T12:31:15.282466059Z [err]  }
+2025-11-13T12:31:15.282471837Z [err]  
+2025-11-13T12:31:15.282477823Z [err]  Node.js v18.20.5
+2025-11-13T12:31:17.079308048Z [err]  
+2025-11-13T12:31:17.079323023Z [err]  TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+2025-11-13T12:31:17.079327944Z [err]      at Object.resolve (node:path:1097:7)
+2025-11-13T12:31:17.079332380Z [err]      at async handleMainPromise (node:internal/modules/run_main:106:12) {
+2025-11-13T12:31:17.079339990Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-11-13T12:31:17.079346082Z [err]    code: 'ERR_INVALID_ARG_TYPE'
+2025-11-13T12:31:17.079348004Z [err]      at validateString (node:internal/validators:162:11)
+2025-11-13T12:31:17.079364221Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-11-13T12:31:17.079366212Z [err]      at file:///app/dist/index.js:329:17
+2025-11-13T12:31:17.079372752Z [err]      at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+2025-11-13T12:31:17.079374964Z [inf]  
+2025-11-13T12:31:17.079376993Z [err]      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+2025-11-13T12:31:17.079382672Z [err]      at async loadESM (node:internal/process/esm_loader:34:7)
+2025-11-13T12:31:17.079387293Z [inf]  
+2025-11-13T12:31:17.079397835Z [err]      ErrorCaptureStackTrace(err);
+2025-11-13T12:31:17.079400034Z [err]  node:internal/errors:496
+2025-11-13T12:31:17.079407316Z [err]      ^
+2025-11-13T12:31:17.079410771Z [inf]  > rest-express@1.0.0 start
+2025-11-13T12:31:17.079418856Z [err]  }
+2025-11-13T12:31:17.079421432Z [inf]  > NODE_ENV=production node dist/index.js
+2025-11-13T12:31:17.079427811Z [err]  
+2025-11-13T12:31:17.079437408Z [err]  Node.js v18.20.5
+2025-11-13T12:31:18.304069747Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-11-13T12:31:18.339343693Z [inf]  
+2025-11-13T12:31:18.339350849Z [inf]  > rest-express@1.0.0 start
+2025-11-13T12:31:18.339356479Z [inf]  > NODE_ENV=production node dist/index.js
+2025-11-13T12:31:18.339362153Z [inf]  
+2025-11-13T12:31:19.125483377Z [err]      at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+2025-11-13T12:31:19.125500144Z [err]  }
+2025-11-13T12:31:19.125510366Z [err]  
+2025-11-13T12:31:19.125516485Z [err]  Node.js v18.20.5
+2025-11-13T12:31:19.125546936Z [err]      at async loadESM (node:internal/process/esm_loader:34:7)
+2025-11-13T12:31:19.125567475Z [err]      at async handleMainPromise (node:internal/modules/run_main:106:12) {
+2025-11-13T12:31:19.125574814Z [err]    code: 'ERR_INVALID_ARG_TYPE'
+2025-11-13T12:31:19.125602951Z [err]  node:internal/errors:496
+2025-11-13T12:31:19.125609422Z [err]      ErrorCaptureStackTrace(err);
+2025-11-13T12:31:19.125616919Z [err]      ^
+2025-11-13T12:31:19.125622544Z [err]  
+2025-11-13T12:31:19.125628628Z [err]  TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+2025-11-13T12:31:19.125633582Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-11-13T12:31:19.125639142Z [err]      at validateString (node:internal/validators:162:11)
+2025-11-13T12:31:19.125644412Z [err]      at Object.resolve (node:path:1097:7)
+2025-11-13T12:31:19.125652006Z [err]      at file:///app/dist/index.js:329:17
+2025-11-13T12:31:19.125659988Z [err]      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+2025-11-13T12:31:20.102224425Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-11-13T12:31:20.102231837Z [inf]  
+2025-11-13T12:31:20.102245926Z [inf]  > rest-express@1.0.0 start
+2025-11-13T12:31:20.102254245Z [inf]  > NODE_ENV=production node dist/index.js
+2025-11-13T12:31:20.102261942Z [inf]  
+2025-11-13T12:31:20.369031840Z [err]  node:internal/errors:496
+2025-11-13T12:31:20.369037979Z [err]      ErrorCaptureStackTrace(err);
+2025-11-13T12:31:20.369043558Z [err]      ^
+2025-11-13T12:31:20.369049219Z [err]  
+2025-11-13T12:31:20.369055195Z [err]  TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+2025-11-13T12:31:20.369060725Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-11-13T12:31:20.369066386Z [err]      at validateString (node:internal/validators:162:11)
+2025-11-13T12:31:20.369071804Z [err]      at Object.resolve (node:path:1097:7)
+2025-11-13T12:31:20.369077155Z [err]      at file:///app/dist/index.js:329:17
+2025-11-13T12:31:20.369082370Z [err]      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+2025-11-13T12:31:20.369087975Z [err]      at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+2025-11-13T12:31:20.369094223Z [err]      at async loadESM (node:internal/process/esm_loader:34:7)
+2025-11-13T12:31:20.369101684Z [err]      at async handleMainPromise (node:internal/modules/run_main:106:12) {
+2025-11-13T12:31:20.369106831Z [err]    code: 'ERR_INVALID_ARG_TYPE'
+2025-11-13T12:31:20.369112478Z [err]  }
+2025-11-13T12:31:20.369118575Z [err]  
+2025-11-13T12:31:20.369124245Z [err]  Node.js v18.20.5
+2025-11-13T12:31:21.941939846Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-11-13T12:31:21.941947060Z [inf]  
+2025-11-13T12:31:21.941952018Z [inf]  > rest-express@1.0.0 start
+2025-11-13T12:31:21.941957603Z [inf]  > NODE_ENV=production node dist/index.js
+2025-11-13T12:31:21.941964984Z [inf]  
+2025-11-13T12:31:21.987293799Z [err]  node:internal/errors:496
+2025-11-13T12:31:21.987307891Z [err]      ErrorCaptureStackTrace(err);
+2025-11-13T12:31:21.987458046Z [err]      ^
+2025-11-13T12:31:21.987479923Z [err]  
+2025-11-13T12:31:21.987487806Z [err]  TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+2025-11-13T12:31:21.987497086Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-11-13T12:31:21.987504686Z [err]      at validateString (node:internal/validators:162:11)
+2025-11-13T12:31:21.987512783Z [err]      at Object.resolve (node:path:1097:7)
+2025-11-13T12:31:21.987525128Z [err]      at file:///app/dist/index.js:329:17
+2025-11-13T12:31:21.987533773Z [err]      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+2025-11-13T12:31:21.987541484Z [err]      at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+2025-11-13T12:31:21.987550010Z [err]      at async loadESM (node:internal/process/esm_loader:34:7)
+2025-11-13T12:31:21.987560550Z [err]      at async handleMainPromise (node:internal/modules/run_main:106:12) {
+2025-11-13T12:31:21.987568411Z [err]    code: 'ERR_INVALID_ARG_TYPE'
+2025-11-13T12:31:21.987576089Z [err]  }
+2025-11-13T12:31:21.987583224Z [err]  
+2025-11-13T12:31:21.987590376Z [err]  Node.js v18.20.5
+2025-11-13T12:31:23.083711503Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-11-13T12:31:23.120536594Z [inf]  
+2025-11-13T12:31:23.120550466Z [inf]  > rest-express@1.0.0 start
+2025-11-13T12:31:23.120558131Z [inf]  > NODE_ENV=production node dist/index.js
+2025-11-13T12:31:23.120567252Z [inf]  
+2025-11-13T12:31:23.503428165Z [err]  node:internal/errors:496
+2025-11-13T12:31:23.503436466Z [err]      ErrorCaptureStackTrace(err);
+2025-11-13T12:31:23.503444623Z [err]      ^
+2025-11-13T12:31:23.503452194Z [err]  
+2025-11-13T12:31:23.503460823Z [err]  TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+2025-11-13T12:31:23.503466592Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-11-13T12:31:23.503472448Z [err]      at validateString (node:internal/validators:162:11)
+2025-11-13T12:31:23.503479036Z [err]      at Object.resolve (node:path:1097:7)
+2025-11-13T12:31:23.503485499Z [err]      at file:///app/dist/index.js:329:17
+2025-11-13T12:31:23.503493785Z [err]      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+2025-11-13T12:31:23.503499425Z [err]      at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+2025-11-13T12:31:23.503504252Z [err]      at async loadESM (node:internal/process/esm_loader:34:7)
+2025-11-13T12:31:23.503509581Z [err]      at async handleMainPromise (node:internal/modules/run_main:106:12) {
+2025-11-13T12:31:23.503515725Z [err]    code: 'ERR_INVALID_ARG_TYPE'
+2025-11-13T12:31:23.503520941Z [err]  }
+2025-11-13T12:31:23.503526769Z [err]  
+2025-11-13T12:31:23.503533090Z [err]  Node.js v18.20.5
+2025-11-13T12:31:25.047354176Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-11-13T12:31:25.047360636Z [inf]  
+2025-11-13T12:31:25.047366799Z [inf]  > rest-express@1.0.0 start
+2025-11-13T12:31:25.047373268Z [inf]  > NODE_ENV=production node dist/index.js
+2025-11-13T12:31:25.047379963Z [inf]  
+2025-11-13T12:31:25.097376195Z [err]  node:internal/errors:496
+2025-11-13T12:31:25.097388735Z [err]      ErrorCaptureStackTrace(err);
+2025-11-13T12:31:25.097397278Z [err]      ^
+2025-11-13T12:31:25.097406062Z [err]  
+2025-11-13T12:31:25.097417122Z [err]  TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
+2025-11-13T12:31:25.097426809Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-11-13T12:31:25.097437244Z [err]      at validateString (node:internal/validators:162:11)
+2025-11-13T12:31:25.097448186Z [err]      at Object.resolve (node:path:1097:7)
+2025-11-13T12:31:25.097456255Z [err]      at file:///app/dist/index.js:329:17
+2025-11-13T12:31:25.097464801Z [err]      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+2025-11-13T12:31:25.097471606Z [err]      at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+2025-11-13T12:31:25.097478023Z [err]      at async loadESM (node:internal/process/esm_loader:34:7)
+2025-11-13T12:31:25.097484603Z [err]      at async handleMainPromise (node:internal/modules/run_main:106:12) {
+2025-11-13T12:31:25.097491666Z [err]    code: 'ERR_INVALID_ARG_TYPE'
+2025-11-13T12:31:25.097497124Z [err]  }
+2025-11-13T12:31:25.097504162Z [err]  
+2025-11-13T12:31:25.097509755Z [err]  Node.js v18.20.5
+2025-11-13T12:36:27.000000000Z [inf]  Stopping Container
