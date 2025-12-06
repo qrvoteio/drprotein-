@@ -22,8 +22,12 @@ export default function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" data-testid="link-home">
-            <span className="text-xl font-bold text-primary">Dr.Protein</span>
+          <Link href="/" data-testid="link-home" className="flex items-center">
+            <img 
+              src="/logo.png" 
+              alt="Dr.Protein" 
+              className="h-10 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
