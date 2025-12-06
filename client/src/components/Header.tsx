@@ -24,9 +24,9 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" data-testid="link-home" className="flex items-center">
             <img 
-              src="/logo.png" 
+              src="/dr-protein-logo-clean.png" 
               alt="Dr.Protein" 
-              className="h-10 w-auto"
+              className="h-12 w-auto"
             />
           </Link>
 
