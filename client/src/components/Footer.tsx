@@ -11,7 +11,11 @@ export default function Footer() {
           {/* Column 1 */}
           <div>
             <div className="mb-4">
-              <span className="text-xl font-bold text-primary">Dr.Protein</span>
+              <img 
+                src="/dr-protein-logo.png" 
+                alt="Dr.Protein" 
+                className="h-10 w-auto"
+              />
             </div>
             <p className="text-sm text-muted-foreground">
               Функциональное питание на основе пептидов для активного долголетия и здоровья
