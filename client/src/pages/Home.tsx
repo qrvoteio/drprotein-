@@ -2,9 +2,9 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, Play, User, Users, Briefcase, Home as HomeIcon, Sunrise, UserCheck, Phone, Mail } from "lucide-react";
-import heroImage from "@assets/generated_images/Hero_background_lifestyle_photo_d090e215.png";
-import chickenBrothImage from "@assets/generated_images/Chicken_broth_product_photo_9a60d41e.png";
-import beefBrothImage from "@assets/generated_images/Beef_broth_product_photo_b199c9c5.png";
+import heroImage from "@assets/generated_images/main.png";
+import chickenBrothImage from "@assets/generated_images/chiken.png";
+import beefBrothImage from "@assets/generated_images/beef.png";
 
 export default function Home() {
   const audienceSegments = [
@@ -122,68 +122,11 @@ export default function Home() {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
-              <Button size="lg" variant="outline" className="text-lg backdrop-blur-sm bg-white/10 text-white border-white hover:bg-white/20" data-testid="button-video">
-                <Play className="mr-2 h-5 w-5" />
-                Посмотреть видео
-              </Button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Protein Deficit Section */}
-      <section className="py-16 md:py-24 bg-background">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-6" data-testid="text-deficit-title">
-              56% россиян испытывают дефицит белка
-            </h2>
-            <p className="text-lg text-muted-foreground mb-12">
-              Не потому, что не едят мясо, а потому что неправильно распределяют белок в течение дня. 
-              Без регулярного поступления аминокислот начинается катаболизм, усталость, старение.
-            </p>
-
-            <div className="grid md:grid-cols-2 gap-8">
-              <Card className="bg-destructive/10 border-destructive/20">
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <span className="text-2xl">❌</span> Типично
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-2 text-left">
-                    <p><strong>Завтрак:</strong> 10 г</p>
-                    <p><strong>Обед:</strong> 50 г</p>
-                    <p><strong>Ужин:</strong> 15 г</p>
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-primary/10 border-primary/20">
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <span className="text-2xl">✅</span> Dr.Protein
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-2 text-left">
-                    <p><strong>Завтрак:</strong> 25 г</p>
-                    <p><strong>Перекус:</strong> 25 г</p>
-                    <p><strong>Обед:</strong> 25 г</p>
-                    <p><strong>Ужин:</strong> 25 г</p>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-
-            <Link href="/science">
-              <Button size="lg" className="mt-8" data-testid="button-protein-info">
-                Как правильно есть белок?
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
 
       {/* Science Section */}
       <section className="py-16 md:py-24 bg-muted">

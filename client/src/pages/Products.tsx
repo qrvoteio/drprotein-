@@ -6,8 +6,8 @@ import { Link } from "wouter";
 import { Check } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
 import type { Product } from "@shared/schema";
-import chickenBrothImage from "@assets/generated_images/Chicken_broth_product_photo_9a60d41e.png";
-import beefBrothImage from "@assets/generated_images/Beef_broth_product_photo_b199c9c5.png";
+import chickenBrothImage from "@assets/generated_images/chiken.png";
+import beefBrothImage from "@assets/generated_images/beef.png";
 
 export default function Products() {
   const { data: products, isLoading, error } = useQuery<Product[]>({
@@ -71,10 +71,12 @@ export default function Products() {
                 <Card key={product.id} className="hover-elevate" data-testid={`card-product-${product.slug}`}>
                   <CardHeader className="p-0">
                     <div className="aspect-[4/3] bg-white rounded-t-xl overflow-hidden relative">
-                      <img 
-                        src={getProductImage(product.slug)} 
+                      <img
+                        src={getProductImage(product.slug)}
                         alt={product.name}
                         className="w-full h-full object-cover"
+                        style={product.slug === "chicken-broth" ? { transform: "scale(1.4)", transformOrigin: "center" } :
+                              product.slug === "beef-broth" ? { transform: "scale(1.4)", transformOrigin: "center" } : {}}
                       />
                       {product.availability !== "available" && (
                         <div className="absolute top-4 right-4">
