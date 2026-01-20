@@ -5,6 +5,9 @@ import { ArrowRight, Play, User, Users, Briefcase, Home as HomeIcon, Sunrise, Us
 import heroImage from "@assets/generated_images/main.png";
 import chickenBrothImage from "@assets/generated_images/chiken.png";
 import beefBrothImage from "@assets/generated_images/beef.png";
+import comparisonImage from "@assets/generated_images/1765355799.png";
+import yogurtImage from "@assets/generated_images/pep1.png";
+import cocktailImage from "@assets/generated_images/pep2.png";
 
 export default function Home() {
   const audienceSegments = [
@@ -66,15 +69,15 @@ export default function Home() {
       available: true,
     },
     {
-      name: "Молочный коктейль с пептидами",
+      name: "Пептидный ложковой йогурт, 30 гр. белка,120 мл.",
       description: "Вкусно и полезно. Скоро в продаже.",
-      image: chickenBrothImage,
+      image: cocktailImage,
       available: false,
     },
     {
-      name: "Питьевой йогурт с пептидами",
+      name: "Пептидный питьевой йогурт, 30 гр. белка, 200 мл.",
       description: "Натуральный йогурт с пептидами. Скоро в продаже.",
-      image: beefBrothImage,
+      image: yogurtImage,
       available: false,
     },
   ];
@@ -136,48 +139,12 @@ export default function Home() {
               Пептиды — не просто белок. Это «шаттл» для аминокислот
             </h2>
             <p className="text-lg text-center text-muted-foreground mb-12">
-              Пептиды усваиваются за 15–20 минут и доставляют аминокислоты прямо в клетку. 
+              Пептиды усваиваются за 15–20 минут и доставляют аминокислоты прямо в клетку.
               В отличие от обычного белка, который переваривается 2–3 часа и частично теряется.
             </p>
 
-            <div className="bg-background rounded-xl p-6 md:p-8">
-              <div className="grid md:grid-cols-2 gap-8">
-                <div className="space-y-4">
-                  <h3 className="text-xl font-semibold text-center">Домашний бульон</h3>
-                  <div className="space-y-3">
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Усвоение:</span>
-                      <span className="font-semibold">60%</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Хранение:</span>
-                      <span className="font-semibold">3 дня</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Жир:</span>
-                      <span className="font-semibold">Высокий</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="space-y-4">
-                  <h3 className="text-xl font-semibold text-center text-primary">Dr.Protein</h3>
-                  <div className="space-y-3">
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Усвоение:</span>
-                      <span className="font-semibold text-primary">99%</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Хранение:</span>
-                      <span className="font-semibold text-primary">12 месяцев</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Жир:</span>
-                      <span className="font-semibold text-primary">0 г</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="bg-background rounded-xl p-6 md:p-8 mb-8">
+              <img src={comparisonImage} alt="Сравнение продуктов" className="w-full h-auto rounded-lg" />
             </div>
 
             <div className="text-center mt-8">
@@ -239,10 +206,15 @@ export default function Home() {
               <Card key={index} className="hover-elevate" data-testid={`card-product-${index}`}>
                 <CardHeader className="p-0">
                   <div className="aspect-[3/4] bg-white rounded-t-xl overflow-hidden">
-                    <img 
-                      src={product.image} 
+                    <img
+                      src={product.image}
                       alt={product.name}
                       className="w-full h-full object-cover"
+                      style={
+                        product.name === "Пептидный ложковой йогурт, 30 гр. белка,120 мл." ? { transform: 'scale(0.5)' } :
+                        product.name === "Пептидный питьевой йогурт, 30 гр. белка, 200 мл." ? { transform: 'scale(0.64)' } :
+                        {}
+                      }
                     />
                   </div>
                 </CardHeader>
