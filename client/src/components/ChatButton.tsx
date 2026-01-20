@@ -12,10 +12,12 @@ export default function ChatButton() {
   return (
     <Button
       onClick={handleClick}
-      className="fixed bottom-4 right-4 h-14 w-14 rounded-full bg-yellow-500 text-white shadow-lg hover:scale-110 hover:bg-yellow-600 transition-all duration-300 z-50"
+      style={{ position: 'fixed', bottom: '16px', right: '16px', zIndex: 9999 }}
+      className="h-14 w-14 rounded-full bg-yellow-500 text-white shadow-lg hover:scale-110 hover:bg-yellow-600 transition-all duration-300 flex flex-col items-center justify-center"
       data-testid="button-chat"
     >
-      <MessageCircle className="h-6 w-6" />
+      <MessageCircle className="h-8 w-8" />
+      <span className="text-xs font-bold">AI</span>
     </Button>
   );
 }
