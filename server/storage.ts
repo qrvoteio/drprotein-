@@ -158,6 +158,7 @@ export class MemStorage implements IStorage {
       id,
       publishedAt: new Date(),
       createdAt: new Date(),
+      imageUrl: insertArticle.imageUrl ?? null,
     };
     this.articles.set(id, article);
     return article;
@@ -170,6 +171,7 @@ export class MemStorage implements IStorage {
       ...insertSubmission,
       id,
       createdAt: new Date(),
+      message: insertSubmission.message ?? null,
     };
     this.contactSubmissions.set(id, submission);
     return submission;

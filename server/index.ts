@@ -2,6 +2,8 @@ import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
 
+console.log("Starting server, NODE_ENV:", process.env.NODE_ENV);
+
 const app = express();
 
 declare module 'http' {
@@ -60,8 +62,15 @@ app.use((req, res, next) => {
   // importantly only setup vite in development and after
   // setting up all the other routes so the catch-all route
   // doesn't interfere with the other routes
+  console.log("App env:", app.get("env"));
   if (app.get("env") === "development") {
-    await setupVite(app, server);
+    console.log("Setting up Vite for development");
+    try {
+      await setupVite(app, server);
+      console.log("Vite setup complete");
+    } catch (error) {
+      console.error("Error setting up Vite:", error);
+    }
   } else {
     serveStatic(app);
   }

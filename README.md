@@ -33,11 +33,17 @@ cp .env.example .env
 ```
 
 3. Run development server:
-```bash
-npm run dev
-```
 
-4. Open http://localhost:5000
+   **Local development (with HMR):**
+   ```bash
+   PORT=3000 npm run dev
+   ```
+   Open http://localhost:3000
+
+   **Dev subdomain (requires sync after changes):**
+   - Server runs at https://dev.vdbot1.store
+   - Sync changes: `rsync -av --exclude=node_modules /home/drprotein-/ /var/www/drprotein/`
+   - Restart dev: `pm2 restart drprotein-dev`
 
 ## Production Deployment
 

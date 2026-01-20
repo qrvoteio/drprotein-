@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ChatButton from "@/components/ChatButton";
 import Home from "@/pages/Home";
 import Science from "@/pages/Science";
 import Products from "@/pages/Products";
@@ -34,6 +35,8 @@ function Router() {
 }
 
 export default function App() {
+  console.log("App rendered");
+
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
@@ -45,6 +48,7 @@ export default function App() {
           <Footer />
         </div>
         <Toaster />
+        <ChatButton />
       </TooltipProvider>
     </QueryClientProvider>
   );
